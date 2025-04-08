@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moby Facilities</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header_menu">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/Logos/moby_logo_horizontal.png" alt="Moby Facilities">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <!-- <li><a href="#">Trabalhos</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero-contact">
+        <div class="hero-content">
+            <h1>FALE CONOSCO PARA<br>MAIS INFORMAÇÕES</h1>
+            <div class="consulta-inicial">
+                <button class="cta-button-contact" onclick="document.querySelector('.orcamento-section').scrollIntoView({ behavior: 'smooth' });">Agende uma consulta</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de orçamento -->
+    <section class="orcamento-section">
+        <img src="assets/img/img_contact_form.jpg" alt="Pessoa limpando janela" class="window-cleaning-img">
+        
+        <div class="orcamento-content">
+            <h2>ORÇAMENTO GRATUITO!</h2>
+            
+            <form class="form-container" action="send_email.php" method="POST">
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="surname">Sobrenome</label>
+                        <input type="text" name="surname" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="email">Email *</label>
+                        <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Por favor, insira um email válido.">
+                    </div>
+                    <div class="form-field">
+                        <label for="about">Assunto</label>
+                        <input type="text" name="about" required>
+                    </div>
+                </div>
+                <label for="message">Mensagem</label>
+                <textarea name="message" required></textarea>
+                
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="assets/img/Logos/moby_logo_horizontal.png" alt="Moby Facilities">
+            </div>
+            <!-- <div class="footer-links">
+                <ul>
+                    <li><a href="#">Trabalhos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div> -->
+            <div class="footer-contact">
+                <p>(11) 4861-1174</p>
+                <p>contato@mobyfacilities.com.br</p>
+                <p>Alameda dos Nhambiquaras, 1770 Conjunto 812</p>
+                <!-- <button class="footer-button">Agende uma consulta</button> -->
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>Política de cookies | Política de Privacidade</p>
+            <p>© 2025 por Moby Facilities | Criado por Caio Francelino</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
