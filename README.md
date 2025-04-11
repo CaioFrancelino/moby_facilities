@@ -53,7 +53,7 @@ O formulário está localizado na página `contact.html` e utiliza o método `PO
     <textarea name="message" required></textarea>
     <button type="submit" class="btn-enviar">Enviar</button>
 </form>
-
+```
 ```markdown
 # Moby Facilities - Documentação do Projeto
 
@@ -83,7 +83,7 @@ O envio do formulário na página de contato foi implementado utilizando **PHP**
 ### 1. **Estrutura do Formulário**
 
 O formulário está localizado na página `contact.html` e utiliza o método `POST` para enviar os dados ao script `send_email.php`. Ele inclui campos como nome, sobrenome, email, assunto e mensagem. O campo de email possui validação básica com o atributo `pattern` para garantir que o formato seja válido.
-
+```
 ```html
 <form class="form-container" action="send_email.php" method="POST">
     <div class="form-row">
