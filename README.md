@@ -204,7 +204,7 @@ exit;
 
 ---
 
-## Por Que Escolhemos HTML, CSS, JS e PHP?
+## Por Que Escolhi HTML, CSS, JS e PHP?
 
 1. **Simplicidade**: O uso de tecnologias básicas garante que o site seja fácil de entender, modificar e manter.
 2. **Performance**: Sem frameworks ou bibliotecas pesadas, o site carrega rapidamente, mesmo em conexões lentas.
@@ -239,7 +239,7 @@ exit;
 
 ## Conclusão
 
-O site **Moby Facilities** foi projetado para ser funcional e eficiente, utilizando tecnologias básicas para atender às necessidades do cliente. A implementação do formulário de contato com PHP garante uma solução robusta e segura para comunicação com os usuários.
+O site **Moby Facilities** foi projetado para ser funcional e eficiente, utilizando tecnologias básicas para atender às necessidades do cliente. A implementação do formulário de contato com PHP garante uma solução robusta, simples e segura para comunicação com os usuários.
 
 
 
